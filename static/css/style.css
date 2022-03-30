@@ -1,0 +1,179 @@
+/*
+Common 
+*************************/
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  border-left: 1px solid rgb(29, 161, 242);
+  border-right: 1px solid rgb(29, 161, 242);
+}
+/* .text h1 {
+    margin-left: 24%;
+} */
+.header img {
+  width: 60px;
+  float: left;
+  position: relative;
+  margin: 0px 1px 1px 9px;
+}
+
+.header h1 {
+  font-family: sans-serif;
+  display: block;
+  padding: 17px;
+}
+
+/*
+Post
+*******/
+
+.post_forum {
+  padding: 20px 40px;
+  border-bottom: 1px solid rgb(29, 161, 242);
+}
+
+.post_forum .name {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #e6fef7;
+}
+
+.post_forum textarea {
+  width: 70%;
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+}
+
+.post_forum button {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 11%;
+  padding: 7px;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.post_forum .file {
+  border: 1px solid #ccc;
+  padding: 7px;
+  margin-left: 12%;
+}
+
+.posts ul {
+  padding: 0;
+}
+
+.content .posts li {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid rgb(29, 161, 242);
+  padding: 20px 40px;
+}
+
+.posts li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.posts li .menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid rgb(29, 161, 242);
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.posts li .menu a {
+  text-decoration: none;
+}
+
+.posts li .logo {
+  flex-basis: 15%;
+}
+
+.posts li .logo img {
+  width: 60%;
+}
+
+.posts li .name_body {
+  flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+  font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+  color: gray;
+}
+
+@media screen and (max-width: 500px) {
+  .posts li .name_body .name {
+    font-size: 20px;
+  }
+}
+
+.head {
+  border-bottom: 1px solid rgb(29, 161, 242);
+}
+.logo img {
+  width: 12%;
+  float: left;
+  position: relative;
+  right: 26px;
+}
+.name_body {
+  flex-basis: 85%;
+}
+
+.name_body .name {
+  font-weight: bold;
+}
+
+.name_body .datetime {
+  color: grey;
+}
+
+@media screen and (max-width: 500px) {
+  .name_body .name {
+    font-size: 20px;
+  }
+}
+
+.post-section {
+  width: 100%;
+  height: 270px;
+}
+
+.like_button img {
+  width: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+#cancel {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 11%;
+  padding: 7px;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
